@@ -1,0 +1,108 @@
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#login{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    background-color: white;
+    border: 2px solid white;
+    padding: 5px 10px;
+    color:#0024a8;
+    transition: 0.3s;
+    margin: 20px;
+    transform: translateX(-65px) translateY(-70px);
+}
+
+#signup{
+    font-family: 'Poppins', sans-serif;
+    border-radius: 4px;
+    background-color: white;
+    border: 2px solid white;
+    padding:5px 10px;
+    color:#0024a8;
+    transition: 0.3s;
+    margin: 20px;
+    transform: translateX(25px) translateY(-145px);
+}
+
+#login:hover{
+    border-radius: 9px;
+    transform: translateY(-3px);
+    cursor: pointer;
+    background-color:#0024a8;
+    box-shadow: 0px 6px 6px -4.8px white;
+    color: white;
+}
+
+#signup:hover{
+    border-radius: 9px;
+    transform: translateY(-3px);
+    cursor: pointer;
+    background-color:#0024a8;
+    box-shadow: 0px 6px 6px -4.8px white;
+    color: white;
+}
+
+#section1{
+    background-color: #0024a8;
+    width: 300px;
+    height: 95px;
+    border: #0024a8 2px solid;
+    border-radius: 20px;    
+    padding: 50px;
+    transform: translateX(600px);
+}
+#CreDiv{
+    padding: 50px;
+}
+#signin{
+    color: white;
+    margin: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Heebo', sans-serif;
+    transform: translateY(-30px) translateX(-20px);
+}
+
+#PhNumber{
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif; 
+    transform: translateX(-70px) translateY(-70px);
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+#CredLabel{
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+
+
+#Illustration-1{
+    width: 350px;
+    height: 500px;
+    animation:ease-in;
+}
+
+#DispFlex{
+    display:flex;
+    justify-content:flex-start;
+}
